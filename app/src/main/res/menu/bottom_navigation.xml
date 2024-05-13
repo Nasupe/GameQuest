@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/perfil"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/buscar"
+        android:title="Búsqueda" />
+
+
+    <item
+        android:id="@+id/fifthFragment"
+        android:icon="@drawable/inicio"
+        android:title="inicio" />
+
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ajustes"
+        android:title="Configuración" />
+
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/salida"
+        android:title="Cerrar sesión" />
+
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permisos aquí -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Para acceder a Internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Para leer el almacenamiento externo -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_EMAIL"/>
+    <uses-permission android:name="android.permission.SENDTO" />
+    />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dice_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GAMEQUEST"
+        tools:targetApi="31">
+        <activity
+            android:name=".SavedGamesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddResourcesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondFragment"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".FirstFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Feed"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Iniciosesion"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

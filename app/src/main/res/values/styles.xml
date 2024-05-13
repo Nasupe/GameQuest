@@ -1,0 +1,9 @@
+<resources>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="helperTextTextAppearance">@style/HelperTextStyle</item>
+    </style>
+
+    <style name="HelperTextStyle" parent="TextAppearance.Design.HelperText">
+        <item name="android:fontFamily">@font/give_you_glory</item>
+    </style>
+</resources>

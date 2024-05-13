@@ -1,0 +1,176 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo de texto para la contraseña actual -->
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/caveat_brush"
+            android:padding="8dp"
+            android:text="Ajustes"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/caveat_brush"
+            android:padding="8dp"
+            android:text="Cambiar contraseña"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="374dp"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña actual"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextOldPassword"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/give_you_glory"
+            android:hint="Introduce tu contraseña actual"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
+
+        <!-- Campo de texto para la nueva contraseña -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nueva contraseña"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/give_you_glory"
+            android:textStyle="bold"
+            android:hint="Introduce tu nueva contraseña"
+            android:inputType="textPassword" />
+
+        <!-- Botón para cambiar la contraseña -->
+        <Button
+            android:id="@+id/buttonChangePassword"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="Cambiar contraseña" />
+
+        <!-- Separador -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Título del formulario de contacto -->
+        <TextView
+            android:id="@+id/contactTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formulario de contacto"
+            android:textSize="20sp"
+            android:fontFamily="@font/caveat_brush"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Campo de texto para el correo electrónico del usuario -->
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu correo electrónico"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Escribe tu correo electrónico"
+            android:fontFamily="@font/give_you_glory"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress" />
+
+        <!-- Campo de texto para el asunto del mensaje -->
+        <TextView
+            android:id="@+id/subjectTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asunto"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Escribe el asunto del mensaje"
+            android:fontFamily="@font/give_you_glory"
+            android:textStyle="bold"
+            android:inputType="text" />
+
+        <!-- Campo de texto para el mensaje -->
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensaje"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="376dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/give_you_glory"
+            android:hint="Escribe tu mensaje"
+            android:inputType="textMultiLine"
+            android:minLines="4"
+            android:textStyle="bold" />
+
+        <!-- Botón de enviar -->
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="Enviar" />
+
+    </LinearLayout>
+</ScrollView>

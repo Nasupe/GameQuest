@@ -1,0 +1,94 @@
+{
+  "juegos": [
+    {
+      "nombre": "El Pistolero",
+      "materiales": "Ninguno",
+      "categoria": "Juegos de presentación",
+      "descripcion": "El grupo se sitúa en círculo y una de las personas se pone en el centro con los ojos cerrados, da vueltas sobre sí misma, y cuando para, señala a una persona. Esta debe agacharse y las que quedan a su derecha e izquierda deben decir lo más rápido posible el nombre de la otra persona. Quien lo diga más tarde (o no lo diga), tiene que sentarse y queda fuera de juego. Ganan las últimas dos personas que quedan en pie."
+    },
+    {
+      "nombre": "Pies quietos",
+      "materiales": "Pelota",
+      "categoria": "Juegos de presentación",
+      "descripcion": "El jugador del centro lanza el balón hacia arriba, nombrando a algún jugador que le rodea. El jugador nombrado debe recoger el balón antes de que bote en el suelo y los demás jugadores deberán alejarse del círculo lo más lejos posible. Cuando el jugador nombrado recoge el balón dirá 'pies quietos' y los demás jugadores no podrán moverse más. Así parados, el jugador que tiene el balón dará tres zancadas seguidas para acercarse a un jugador por él elegido. Luego de dar las tres zancadas, el jugador lanza el balón intentando tocar al jugador elegido para poder eliminarlo, diciendo su nombre. El que lanza el balón puede esquivarlo."
+    },
+    {
+      "nombre": "Ovejita Negra",
+      "materiales": "Linternas",
+      "categoria": "Juegos nocturnos, juegos de exterior",
+      "descripcion": "Los participantes deberán ir andando todos juntos mientras el responsable cuenta una historia. Cuando en esa historia se diga ‘ovejita negra’ todos los participantes correrán a esconderse mientras que se cuenta de diez hacia detrás. Después de esconderse, el responsable con la linterna deberá apuntar y decir el nombre y dónde está escondido para pillarlo. Cuando se diga volver, todos vuelven y se sigue contando la historia. Cada vez que se vuelva se va restando uno en los segundos, la segunda vez se empezará a contar desde nueve, luego desde ocho, y así sucesivamente. Los que han sido pillados pueden ayudar a pillar a los demás jugadores."
+    },
+    {
+      "nombre": "Escondite al revés",
+      "materiales": "Ninguno",
+      "categoria": "Juegos nocturnos, juegos de exterior",
+      "descripcion": "Uno de los jugadores se esconde en un lugar difícil de encontrar, tendrá un tiempo determinado. Después de esconderse, los demás jugadores saldrán a buscarlo de manera escalonada para que no puedan ir todos juntos. Cuando uno lo encuentra, se debe esconder con él. El juego termina cuando todos los jugadores estén escondidos."
+    },
+    {
+      "nombre": "Director de orquesta",
+      "materiales": "Ninguno",
+      "categoria": "Juegos de interior, juegos sin materiales",
+      "descripcion": "Se elige a un voluntario para que salga de la sala. Los demás tienen que elegir un director de orquesta, que será el encargado de dirigir la música con las manos, pies, etc., y el resto deberá imitarle. El que ha salido de la sala debe adivinar quién es el director de orquesta, tendrá tres intentos."
+    },
+    {
+      "nombre": "Pueblo duerme",
+      "materiales": "Ninguno",
+      "categoria": "Juegos de interior, juegos sin materiales",
+      "descripcion": "Los participantes se sientan en círculo y el responsable hará de narrador. Se repartirán roles a los niños que pueden variar en función de la cantidad de participantes: Aldeanos, Asesino, Bruja, Cupido, Vidente, etc. El objetivo del asesino es matar a todo el pueblo. El objetivo del Aldeano es averiguar quién es el asesino. La bruja tiene dos pociones: Una de matar y otra de revivir. Cupido elegirá a dos enamorados. Esos enamorados mueren si uno de los dos muere y ganan si ambos quedan vivos. Si los dos viven, cupido también gana."
+    },
+    {
+      "nombre": "Cruzamos juntos",
+      "materiales": "Papel, algo para delimitar",
+      "categoria": "Juegos cooperativos",
+      "descripcion": "Se les dirá a los participantes que tienen que cruzar todos el río, que estará delimitado lo suficientemente ancho como para que sea difícil cruzarlo. Se les indica que deben cruzarlo todos juntos, y que nadie puede tocar el agua (suelo) y por eso deberán usar las balsas (folios), que deben estar en contacto humano siempre, de lo contrario, la corriente se los llevará y no podrán ser usados. Si alguien se cae al río, todos deben empezar de nuevo."
+    },
+    {
+      "nombre": "Cuerda cooperativa",
+      "materiales": "Cuerda larga",
+      "categoria": "Juegos cooperativos",
+      "descripcion": "Se pone la cuerda en el suelo y se hará un círculo. Se les dice a los participantes que todos deben entrar en la cuerda. A medida que pasan los turnos el círculo de la cuerda se irá haciendo cada vez más pequeño, pero deberán entrar todos igualmente."
+    },
+    {
+      "nombre": "Ratón y gato",
+      "materiales": "Ninguno",
+      "categoria": "Juegos para desfogar",
+      "descripcion": "Se podrán los participantes por parejas, espalda con espalda. Los de un lado serán ratón, y los del otro lado serán gatos. Se contará una historia y cuando se diga el nombre de uno de los dos, este deberá salir corriendo para que el otro compañero no lo pille antes de llegar a un sitio, previamente delimitado."
+    },
+    {
+      "nombre": "Cocodrilo",
+      "materiales": "Silbato",
+      "categoria": "Juegos de distensión",
+      "descripcion": "Se delimita un campo y se elige un voluntario para que sea el cocodrilo, que se pondrá a la mitad del campo, tumbado. El resto de jugadores estarán en una punta del campo y deberán cruzar a la otra. El monitor irá pitando e indicará el ritmo: Si pita una vez van andando, y si pita otra vez, deberán correr, ya que el cocodrilo que estaba en el suelo, ahora se despierta para pillarlos."
+    },
+    {
+      "nombre": "Rescate de banderín",
+      "materiales": "Dos banderas, material para delimitar",
+      "categoria": "Juegos de exterior",
+      "descripcion": "Se dividen a los participantes en dos equipos y se delimita un campo para cada equipo claramente. Cada equipo colocará la bandera al final del campo en una zona segura, donde los oponentes no podrán ser pillados. El objetivo es conseguir la bandera del equipo contrario, entrando en su campo sin ser pillado. Si te pillan en campo contrario, alguien de tu equipo debe de salvarte con una palmada. Gana el equipo que consiga llegar con la bandera contraria a su campo."
+    },
+    {
+      "nombre": "El bordón",
+      "materiales": "Bordón, silbato",
+      "categoria": "Juegos de exterior",
+      "descripcion": "Se forma un círculo con los participantes agarrados de la mano y se pone el bordón clavado en el suelo justo en el centro. Tras una pitada empiezan a andar, una más y corren, y a la tercera se estiran con la intención de alejarse lo máximo posible del bordón. Si tocas el bordón te eliminas y si el círculo se rompe, los dos que se han separado se eliminan también."
+    },
+    {
+      "nombre": "El teléfono",
+      "materiales": "Ninguno",
+      "categoria": "Juegos sin materiales",
+      "descripcion": "Se sentarán los participantes en círculo. Si son muchos pueden dividirse en varios equipos. Se le dirá un mensaje al oído al primero y deberá pasar el mensaje al último. Se revisará cómo empezó el mensaje y cómo ha llegado. Hay una variación, que es en lugar de decir una frase, se hace mímica."
+    },
+    {
+      "nombre": "La cebolla",
+      "materiales": "Ninguno",
+      "categoria": "Juegos sin materiales",
+      "descripcion": "Los participantes se sientan en el suelo, y se agarran unos de otros por la cintura, simulando ser cebollas sembradas. Uno de los participantes será el agricultor que recoge las cebollas, que deberá separar a los compañeros, que opondrán todo tipo de resistencia. A medida que se vayan separando, van ayudando a separar al agricultor."
+    },
+    {
+      "nombre": "El pañuelito",
+      "materiales": "Pañuelo",
+      "categoria": "Juegos competitivos",
+      "descripcion": "Se forman dos equipos, a ser posible con el mismo número de jugadores y se colocan a una distancia determinada el uno del otro. En el centro del campo, el monitor se coloca con un pañuelo colgando de la mano. Este dirá un número en voz alta, y entonces las dos personas con esos números deberán correr para coger el pañuelo y volver a su sitio con él. Si te pillan con el pañuelo, el punto será para el otro equipo."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Celeste -->
+    <color name="celesteClaro">#B2EBF2</color>
+    <color name="celesteMedio">#80DEEA</color>
+    <color name="celesteOscuro">#4DD0E1</color>
+
+    <!-- Cyan -->
+    <color name="cyanClaro">#00BCD4</color>
+    <color name="cyanMedio">#00ACC1</color>
+    <color name="cyanOscuro">#0097A7</color>
+
+
+    <color name="dark_primary">#2196F3</color> <!-- Azul -->
+    <color name="dark_primary_variant">#1976D2</color> <!-- Azul oscuro -->
+    <color name="blue_dark">#1976D2</color>
+    <color name="blue_very_dark">#0D47A1</color>
+
+
+    <color name="dark_background">#212121</color> <!-- Gris oscuro -->
+    <color name="dark_text">#FFFFFF</color> <!-- Blanco -->
+    <color name="dark_surface">#424242</color> <!-- Gris más oscuro -->
+
+    <!-- Tonalidades de gris -->
+    <color name="gray_medium">#999999</color>
+    <color name="gray_dark">#666666</color>
+    <color name="gray_darker">#292525</color>
+
+
+   <!-- color rojo -->
+    <color name="rojo">#FF0000</color>
+
+</resources>

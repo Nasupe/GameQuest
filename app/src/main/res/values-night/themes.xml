@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GAMEQUEST" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <!-- Colores para el tema oscuro -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <!-- Agrega más atributos según sea necesario -->
+
+        <!-- Color del texto -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/gray_medium</item>
+
+        <!-- Color de fondo de la pantalla -->
+        <item name="android:windowBackground">@color/dark_background</item>
+
+        <!-- Color de fondo de los botones -->
+        <item name="android:colorButtonNormal">@color/blue_dark</item>
+
+    </style>
+
+    <style name="bottom_navigation">
+    <item name="android:background">@color/gray_darker</item>
+    <item name="itemIconTint">@color/dark_text</item>
+    <item name="itemTextColor">@color/gray_medium</item>
+    </style>
+</resources>

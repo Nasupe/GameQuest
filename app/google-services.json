@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865515929201",
+    "project_id": "game-quest-1996",
+    "storage_bucket": "game-quest-1996.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865515929201:android:d6a0950cd6ac4afd81e5d0",
+        "android_client_info": {
+          "package_name": "com.nasupe.gamequest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF1ciLLLMHL4-f-ToGSlKTk4xOYw5W9eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

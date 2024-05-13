@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/barrio</item>
+        <item>@font/chewy</item>
+        <item>@font/sansita_swashed_light</item>
+    </array>
+</resources>

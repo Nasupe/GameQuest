@@ -1,0 +1,9 @@
+
+]kotlin:S1172”"?Use "_" instead of this unused lambda parameter "taskSnapshot".(ëœæâùÿÿÿÿ
+5kotlin:S6310 "Avoid hardcoded dispatchers.(Åüíß
+7kotlin:S1128"Remove this unused import.(¾ƒ€Þüÿÿÿÿ
+;kotlin:S1874s"#Deprecated code should not be used.(„Ðÿ‰
+;kotlin:S1874x"#Deprecated code should not be used.(‚´Ã¬
+pkotlin:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(×ÿ‚ñúÿÿÿÿ
+Ekotlin:S6518¬",Replace function call with indexed accessor.(¡ÏÔï
+Ekotlin:S6518Ê",Replace function call with indexed accessor.(¡ÏÔï

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título de la actividad -->
+    <TextView
+        android:id="@+id/textViewActivityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/caveat_brush"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- CardView que contiene los elementos del perfil -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="394dp"
+        android:layout_height="625dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#F1F8E9"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewActivityTitle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Vista de imagen para el foto de perfil -->
+            <ImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="11dp"
+                android:contentDescription="Foto de perfil"
+                android:src="@drawable/default_profile_image"
+                app:layout_constraintBottom_toTopOf="@+id/buttonSelectPhoto"
+                app:layout_constraintEnd_toStartOf="@+id/editTextName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="235dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/give_you_glory"
+                android:hint="Nombre (Ejemplo: Juan)"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/editTextDescription"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageViewProfile"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="235dp"
+                android:layout_height="123dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/give_you_glory"
+                android:hint="Descripción (Ejemplo: Profesor de primaria)"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/buttonSelectPhoto"
+                app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="352dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/give_you_glory"
+                android:hint="Correo electrónico (Ejemplo: ejemplo@gmail.com)"
+                android:inputType="textEmailAddress"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescription" />
+
+
+            <EditText
+                android:id="@+id/editTextDOB"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/give_you_glory"
+                android:hint="Fecha de nacimiento (dd/mm/aaaa)"
+                android:inputType="date"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="343dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:entries="@array/gender_options"
+                android:fontFamily="@font/give_you_glory"
+                android:prompt="@string/prompt_gender"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDOB" />
+
+            <Button
+                android:id="@+id/buttonSaveData"
+                android:layout_width="119dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="456dp"
+                android:text="Guardar datos"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonSelectPhoto"
+                android:layout_width="122dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="148dp"
+                android:text="Seleccionar"
+                android:textSize="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonSaveGames"
+                android:layout_width="279dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="508dp"
+                android:text="Acceder a recursos guardados"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.31"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
